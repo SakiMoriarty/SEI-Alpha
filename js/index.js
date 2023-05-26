@@ -1,6 +1,7 @@
 //Случайная html страница
 const page = document.querySelector('.Random');
-const links = ['Kimetsu no Yaiba Train.html', 'Jujutsu 0.html', 'SAO Aria Movie.html'];
+const links = ['Kimetsu no Yaiba Train.html', 'Jujutsu 0.html', 'SAO Aria Movie.html', "Every u i love.html", "For me who love.html", "Crying neko.html", 
+    "MHA World Mission.html", "Violet Evergarden Move.html", "Fantastic world Move.html"];
 
 page.onclick = function(event) {
   event.preventDefault();
@@ -31,10 +32,10 @@ slide3.onclick = function(event){
 
 slide4.onclick = function(event){
   event.preventDefault();
-  window.location.href = '';
+  window.location.href = 'For me who love.html';
 }
 
 slide5.onclick = function(event){
   event.preventDefault();
-  window.location.href = '';
+  window.location.href = 'Every u i love.html';
 }
