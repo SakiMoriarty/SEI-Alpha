@@ -7,8 +7,6 @@ body {
     min-width: 1000px;
 }
 
-
-
 .light-bg { 
     background: url(images/light.png) no-repeat center 0; 
 }
@@ -188,7 +186,7 @@ body {
 .serial-watch{
     border: 0px;
     display: block;
-    margin-left: 700px;
+    margin-left: 650px;
 }
 
 /* Кнопки поделиться */

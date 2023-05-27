@@ -1,7 +1,7 @@
 //Случайная html страница
 const page = document.querySelector('.Random');
 const links = ['Kimetsu no Yaiba Train.html', 'Jujutsu 0.html', 'SAO Aria Movie.html', "Every u i love.html", "For me who love.html", "Crying neko.html", 
-    "MHA World Mission.html", "Violet Evergarden Move.html", "Fantastic world Move.html"];
+    "MHA World Mission.html", "Violet Evergarden Move.html", "Fantastic world Move.html", "Bad Student.html", "Psycho-Pass Crime and Punishment.html", "Psycho-Pass First Inspector.html"];
 
 page.onclick = function(event) {
   event.preventDefault();
