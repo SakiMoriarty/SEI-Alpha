@@ -532,3 +532,18 @@ Menu bug .post .meta .rating-holder {
     line-height: 12px; 
     padding-bottom: 0px;
 }
+
+@media screen and (max-width: 990px){
+    .socials{
+        display: none;
+    }
+
+    .list{
+        justify-content: center;
+        display:flex;
+    }
+
+    .sidebar{
+        font-size: 22px;
+    }
+}

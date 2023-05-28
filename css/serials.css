@@ -284,60 +284,9 @@ body {
         display: none;
     }
 
-    #navigation { 
-        width: 700px; 
-        height: 100px; 
-        padding: 8px 10px 0 15px; 
-        margin-top: 20px; 
-        position: relative; 
-        margin-right: -5px;  
-        background: url(images/navigation.png) no-repeat 0 0; 
-        font-family: 'coolvetica', arial, helvetica, serif; 
-        font-size: 14px; 
-        font-weight: 600;
-        color: #fff; 
-        float: right;     
-    }
-    
-    #navigation ul { 
-        list-style: none; 
-        list-style-position: outside; 
-        line-height: 12px; 
-    }
-    
-    #navigation ul li { 
-        float: right; 
-        align-items: center;
-        background: url(images/navigation-border.png) no-repeat right 0; 
-        padding-right: 2px;  
-    }
-    
-    #navigation ul li a { 
-        display: block; 
-        color: #fff; 
-        text-shadow: rgba(0,0,0,0.5) 0px 8px 8px;
-        padding: 0 36px; 
-        position: relative; 
-        text-decoration: none;
-    }
-    
-    #navigation ul li.last { 
-        background: transparent; 
-        padding-right: 0;  
-    }
-    
-    #navigation ul li.last a { 
-        padding-right: 13px; 
-        padding-left: 13px; 
-        border-right: 0; 
-        background: transparent; 
-    }
-    
-    #navigation ul li a:hover span { 
-        display: block; 
-        opacity: 1;
-        -moz-opacity: 1;
-        filter:alpha(opacity=100);
+    .list{
+        justify-content: center;
+        display:flex;
     }
 
     .serial-description{
@@ -346,7 +295,7 @@ body {
 
     .serial-watch{
         border: 0px;
-        margin-left: 300px;
+        margin-left: 180px;
     }
 
     .share-buttons {
