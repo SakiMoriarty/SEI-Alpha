@@ -271,6 +271,34 @@ a img {
     -o-box-shadow: 0px 0px 14px rgba(0,0,0,0.6) inset;  
 }
 
+.sidebar { 
+    width: 1000px;
+}
+
+.sidebar .widget h3.widgettitle { 
+    background: url(images/widget-title.png) no-repeat 0 0; 
+    height: 73px; 
+    line-height: 53px; 
+    padding-left: 27px; 
+}
+
+.sidebar .widget ul { 
+    margin-top: -32px;
+    list-style: none; 
+    list-style-position: outside; 
+    background: #171717; 
+    font-size: 15px; 
+    color: #fff; 
+}
+
+.sidebar .widget li a { 
+    display: block; 
+    padding: 10px 35px 4px 30px; 
+    color: #fff; 
+    position: relative; 
+    background: url(images/list-arr.png) no-repeat 10px 16px;
+}
+
 .wrapper {
     width: 250px;
     height: 350px;
