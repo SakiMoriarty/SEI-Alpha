@@ -505,6 +505,8 @@ Menu bug .post .meta .rating-holder {
 /*Для ленты новостей*/
 .elfsight-app-6ff6fe4b-b7af-49e5-bc56-8081cfc0e170{
     margin-top: 30px;
+    display: flex;
+    align-items: center;
 }
 
 /*Футер ПОМЕНЯТЬ ОФОРМЛЕНИЕ*/
