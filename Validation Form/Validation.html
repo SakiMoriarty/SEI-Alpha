@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Форма обратной связи</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Форма обратной связи</h1>
+            <form>
+                <input type="email" id="email" name="email" placeholder="Введите почту" class="form-control">
+                <input type="text" id="name" name="name" placeholder="Введите имя" class="form-control">
+                <input type="phone" id="phone" name="phone" placeholder="Телефон" class="form-control">
+                <textarea name="message" id="message" placeholder="Введите сообщение" class="form-control"></textarea>
+                <button type="button" id="sendMail" class="btn btn-success">Отправить</button>
+            </form>
+            <div id="errorMessage"></div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script src="js/formMail.js"></script>
+    </body>
+</html>
