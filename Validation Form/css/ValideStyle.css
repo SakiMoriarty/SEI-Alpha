@@ -166,6 +166,9 @@ body {
     margin-left: 50px;
 }
 
+#name{
+    display: block;
+}
 /* Футер ПОМЕНЯТЬ ОФОРМЛЕНИЕ */
 .footer-nav {
     margin-left: 530px;
